@@ -6,7 +6,13 @@ Integration of `seeing_is_believing` and TextMate1 as a Bundle.
 Prerequisites
 -------------
 
-You need to have [seeing_is_believing](http://rubygems.org/gems/seeing_is_believing) installed:
+You need to have your `$TM_RUBY` env var set to point at the Ruby you're using.
+If you're using **rvm**, [here](http://rvm.io/integration/textmate) are instructions for how to set up TextMate to work with it
+(I recommend the wrapper approach). If you're using **rbenv**, [here](http://uberfork.com/post/12280974742/integrate-rbenv-with-textmate)
+are instructions for how to set up TextMate to work with it.
+
+You need to have [seeing_is_believing](http://rubygems.org/gems/seeing_is_believing) installed
+for the ruby you're using (and if you're using gemsets, make sure you installed it to the gemset your `$TM_RUBY` is using).
 
     gem install seeing_is_believing
 
@@ -20,6 +26,19 @@ you could download and unzip it, for example.
     cd ~/Library/Application\ Support/TextMate/Bundles/
     git clone git://github.com:JoshCheek/text_mate_1-seeing-is_believing.git Seeing\ Is\ Believing.tmbundle
     osascript -e 'tell app "TextMate" to reload bundles'
+
+Use
+===
+
+There are three commands you can use
+
+* Command + Option + N - Annotate Marked Lines
+* Command + Option + B - Annotate all lines
+* Command + Option + V - Remove annotations
+
+There are also some snippets you can use to play around with SiB in a more interesting environment.
+
+* `s_arb` tab - In memory ActiveRecord environment
 
 License
 =======
