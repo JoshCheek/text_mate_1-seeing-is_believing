@@ -13,12 +13,13 @@ default_options="$default_options -Ku"
 default_options="$default_options --result-length 200"
 default_options="$default_options --alignment-strategy chunk"
 default_options="$default_options --timeout 12"
+default_options="$default_options --shebang $TM_RUBY"
 
-if [ -z "$TM_FILEPATH" ]; then
-  "${TM_RUBY}" -S seeing_is_believing $default_options
-else
-  "${TM_RUBY}" -S seeing_is_believing $default_options --as "$TM_FILEPATH"
-fi</string>
+if [ -n "$TM_FILEPATH" ]; then
+  default_options="$default_options --as $TM_FILEPATH"
+fi
+
+"${TM_RUBY}" -S seeing_is_believing "$default_options"</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
