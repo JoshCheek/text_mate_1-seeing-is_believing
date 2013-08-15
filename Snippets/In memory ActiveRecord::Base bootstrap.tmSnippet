@@ -35,7 +35,7 @@ user = User.create! name: 'Josh'
 user.posts = [Post.new(name: 'yo ho ho'), Post.new(name: 'and a bottle of rum')]
 </string>
 	<key>name</key>
-	<string>In memory ActiveRecord::Base bootstrap</string>
+	<string>In memory ActiveRecord bootstrap</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
