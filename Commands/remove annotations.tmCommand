@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+"${TM_RUBY}" -S seeing_is_believing -Ku --clean</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>~@v</string>
+	<key>name</key>
+	<string>remove annotations</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>uuid</key>
+	<string>12D2EF82-131E-4BC0-AC91-728CDDFC5397</string>
+</dict>
+</plist>
