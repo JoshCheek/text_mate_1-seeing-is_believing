@@ -6,10 +6,12 @@
 	<string>Seeing Is Believing</string>
 	<key>ordering</key>
 	<array>
-		<string>F9B0773B-A18D-4315-93B8-4327A706607B</string>
 		<string>C690BDCE-5453-4D64-BE4B-187BA68D2006</string>
 		<string>235509AD-9C04-44FB-8800-C3C22D3FD7C4</string>
 		<string>12D2EF82-131E-4BC0-AC91-728CDDFC5397</string>
+		<string>F9B0773B-A18D-4315-93B8-4327A706607B</string>
+		<string>FBA20FD9-3656-41D2-828B-270467EFD01C</string>
+		<string>E2C726D7-58B0-4AB4-9DBE-F37A5FA67073</string>
 	</array>
 	<key>uuid</key>
 	<string>B848701E-45DC-4D2F-A0F0-88C2D3C1364A</string>
