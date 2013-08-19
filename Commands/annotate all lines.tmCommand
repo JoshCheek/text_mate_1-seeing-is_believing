@@ -25,7 +25,7 @@ fi
 	<key>keyEquivalent</key>
 	<string>~@b</string>
 	<key>name</key>
-	<string>annotate all lines</string>
+	<string>Annotate all lines</string>
 	<key>output</key>
 	<string>replaceDocument</string>
 	<key>scope</key>

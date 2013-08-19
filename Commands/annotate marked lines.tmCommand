@@ -27,7 +27,7 @@ fi
 	<key>keyEquivalent</key>
 	<string>~@n</string>
 	<key>name</key>
-	<string>annotate marked lines</string>
+	<string>Annotate marked lines</string>
 	<key>output</key>
 	<string>replaceDocument</string>
 	<key>scope</key>

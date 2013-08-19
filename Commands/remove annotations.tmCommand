@@ -12,7 +12,7 @@
 	<key>keyEquivalent</key>
 	<string>~@v</string>
 	<key>name</key>
-	<string>remove annotations</string>
+	<string>Remove annotations</string>
 	<key>output</key>
 	<string>replaceDocument</string>
 	<key>scope</key>
