@@ -24,7 +24,7 @@ you could download and unzip it, for example.
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles/
     cd ~/Library/Application\ Support/TextMate/Bundles/
-    git clone git://github.com:JoshCheek/text_mate_1-seeing-is_believing.git Seeing\ Is\ Believing.tmbundle
+    git clone https://github.com/JoshCheek/text_mate_1-seeing-is_believing.git Seeing\ Is\ Believing.tmbundle
     osascript -e 'tell app "TextMate" to reload bundles'
 
 Use
